@@ -1,3 +1,5 @@
+package Funcionarios;
+
 public class ControleBonificacao {
 
     private double soma;

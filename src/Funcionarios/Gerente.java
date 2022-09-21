@@ -1,3 +1,5 @@
+package Funcionarios;
+
 public class Gerente extends Funcionario {
     private int senha;
 
@@ -14,7 +16,7 @@ public class Gerente extends Funcionario {
     }
 
      public double getBonificacao() {
-         System.out.println("Gerente");
+         System.out.println("Funcionarios.Gerente");
      return super.getBonificacao() + super.getSalario();
      }
 }
