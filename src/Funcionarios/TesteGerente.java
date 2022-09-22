@@ -2,6 +2,9 @@ package Funcionarios;
 
 public class TesteGerente {
     public static void main(String[] args) {
+
+        Gerente gerente = new Gerente();
+
         Gerente g1 = new Gerente();
         g1.setNome("Leanddro");
         g1.setCpf("222222222-22");
@@ -15,6 +18,6 @@ public class TesteGerente {
         boolean autenticou = g1.autentica(222);
         System.out.println(autenticou);
 
-         System.out.println(g1.getBonificacao());
+        System.out.println(g1.getBonificacao());
     }
 }

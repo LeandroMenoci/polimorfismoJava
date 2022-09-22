@@ -1,18 +1,11 @@
 package Funcionarios;
 
-// gerente é um funcionario, gerente herda da class funcionario e assina o contrato autenticavel
-public class Gerente extends Funcionario implements Autenticavel{
-
+public class Cliente implements Autenticavel{
     private AutenticaoUtil autenticador;
 
-    public Gerente() {
+    public Cliente() {
         this.autenticador = new AutenticaoUtil();
     }
-
-     public double getBonificacao() {
-         System.out.println("Funcionarios.Gerente");
-     return super.getSalario();
-     }
 
     @Override
     public void setSenha(int senha) {
