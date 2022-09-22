@@ -7,18 +7,14 @@ public class TesteReferencias {
         g1.setNome("Marcos");
         g1.setSalario(5000.0);
 
-        Funcionario f = new Funcionario();
-        f.setSalario(2000.0);
-
         EditorVideo e = new EditorVideo();
-        f.setSalario(3000.0);
+        e.setSalario(3000.0);
 
         Designer d = new Designer();
-        f.setSalario(2500.0);
+        d.setSalario(2500.0);
 
         ControleBonificacao controle = new ControleBonificacao();
         controle.registra(g1);
-        controle.registra(f);
         controle.registra(e);
         controle.registra(d);
 
